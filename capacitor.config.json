@@ -1,0 +1,10 @@
+{
+  "appId": "com.poolqueue.app",
+  "appName": "Pool-Queue",
+  "webDir": "src",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true
+    }
+  }
+}
