@@ -8,8 +8,9 @@ ul {
 }
 
 body {
-  background-image: url("../assets/imgs/background.png");
-  background-size: contain;
+  background-image: url("../assets/imgs/background-scaled-up.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 }
 
 li {
@@ -20,14 +21,8 @@ li {
   justify-content: center;
 }
 
-/* #nav-container { */
-  /* margin: 0px; */
-/* } */
-
 #nav-list {
   display: flex;
-  
-  /* justify-content: center; */
 }
 
 #nav-list > li {
@@ -55,17 +50,29 @@ li {
   padding-bottom: 2em;
 }
 
+      /* START:  Line list rules */
+
+#line-container {
+  height: 58vh;
+  display: flex;
+  justify-content: center;
+}
+
 #line-list {
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+  width: 95vw;
 }
 
 .line-member {
   color: white;
-  margin-top: 10px;
   margin: 10px, 10px, 0px, 10px;
   border: solid orange 1px;
   text-align: center;
-  /* height: 5em; */
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
+
+      /* END:  Line list rules */ 
